@@ -835,7 +835,7 @@ var app = (function () {
     	return {
     		c() {
     			header = element("header");
-    			header.innerHTML = `<h1 class="svelte-x5xntk"><img src="/img/poll_ninja_logo.svg" alt="Pollo ninja logo" class="svelte-x5xntk"></h1>`;
+    			header.innerHTML = `<h1 class="svelte-x5xntk"><img src="./img/poll_ninja_logo.svg" alt="Pollo ninja logo" class="svelte-x5xntk"></h1>`;
     			attr(header, "class", "svelte-x5xntk");
     		},
     		m(target, anchor) {
